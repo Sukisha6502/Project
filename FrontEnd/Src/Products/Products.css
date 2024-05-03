@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.product-header {
+    text-align: center;
+    font-size: large;
+    background-color: aquamarine;
+    padding: 2%;
+}
+
+.Add-button{
+    margin-right:15%;
+    margin-top:2%;
+    float: right;
+    display: block;
+}
+
+.product-cards {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-card {
+    width: 240px;
+    margin:10%;
+    justify-content: space-between;
+    margin: 2%;
+    margin-top: 3%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ShoppingCart {
+    margin-top: 5%;
+    margin-right: 8%;
+    color: black;
+    background-color:aquamarine;
+    border: none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.product-buttons{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.LikeButton {
+    color:lightcoral;
+    margin-top: 5%;
+    float: right;
+    border:none; 
+    display: flex; 
+    align-items: center; 
+  }
+
+ 
