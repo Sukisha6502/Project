@@ -1,0 +1,36 @@
+.brands-container {
+    padding: 1%;
+}
+
+.title {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Brand-Add{
+    margin-right:15%;
+    margin-top:2%;
+    float: right;
+    display: block;
+}
+
+.brand-cards {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.brand-card {
+    width:240px; 
+    margin:8%;
+    text-align: center;
+    background-color: lavenderblush;
+    /* background-color: hsl(210, 18%, 83%); */
+}
+
+.brand-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
